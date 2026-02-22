@@ -48,7 +48,7 @@ export default function Navbar() {
             My Orders
           </NavLink>
           <NavLink
-            to="/dashboard"
+            to="/"
             className={({ isActive }) =>
               isActive
                 ? `text-[#FF7A18] no-underline hover:underline hover:cursor-not-allowed`
