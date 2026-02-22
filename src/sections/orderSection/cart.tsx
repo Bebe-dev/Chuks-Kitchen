@@ -59,7 +59,7 @@ export default function Cart() {
 
 
   return (
-    <div className="bg-white my-8 md:my-20 mx-4 md:mx-8 p-4 rounded-lg">
+    <div className="bg-white my-8 md:mt-20 md:mb-0 mx-4 md:mx-8 p-4 rounded-lg">
       <h1 className="text-xl font-semibold mb-2">Your Cart</h1>
 
       <div>

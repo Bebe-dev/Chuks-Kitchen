@@ -109,7 +109,7 @@ export default function Navbar() {
               My Orders
             </NavLink>
             <NavLink
-              to="/dashboard"
+              to="/"
               onClick={closeMenu}
               className={({ isActive }) =>
                 isActive

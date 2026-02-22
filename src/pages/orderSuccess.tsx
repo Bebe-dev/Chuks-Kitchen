@@ -16,7 +16,7 @@ export default function OrderSuccess() {
         <div className="w-10 h-10 my-16 rounded-full bg-green-100 mx-auto">
          
         </div>
-        <div className="my-20 mt-12">
+        <div className="mt-20">
           <p className="font-semibold text-xl">
             Order #123RGR231567Y Confirmed
           </p>

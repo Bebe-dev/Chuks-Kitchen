@@ -9,11 +9,11 @@ export default function Login() {
   return (
     <div className="bg-[#F3F4F6]">
       <div className="flex gap-12">
-        <div className="hidden relative md:block flex-1 h-screen">
+        <div className="hidden relative md:flex flex-1 min-h-screen">
           <img
             src="images/onboarding-img.png"
             alt="onboarding-image"
-            className="h-screen w-full "
+            className="w-full h-screen object-cover"
           />
           <div className="bg-[#FF7A18B2] absolute inset-0"></div>
           <div className="absolute inset-0 flex flex-col text-white text-center items-center justify-center">
@@ -83,11 +83,11 @@ export default function Login() {
           </form>
 
           <p className="text-center text-[#1F2937] ">or continue with</p>
-          <button className="flex gap-2 bg-white items-center justify-center border-1 border-[#3B4758] text-[#3B4758] w-full p-2 rounded-xl my-4 mt-4 md:my-4 md:mt-6">
+          <button className="flex gap-2 bg-white items-center justify-center border-1 border-[#BDBDBD] text-[#3B4758] w-full p-2 rounded-lg my-4 mt-4 md:my-4 md:mt-6">
             <img src="images/google-icon.png" alt="google-icon" />
             Continue with Google
           </button>
-          <button className="flex gap-2 bg-white items-center justify-center border-1 border-[#3B4758] text-[#3B4758] w-full p-2 rounded-xl my-4 mt-4">
+          <button className="flex gap-2 bg-white items-center justify-center border-1 border-[#BDBDBD] text-[#3B4758] w-full p-2 rounded-lg my-4 mt-4">
             <img src="images/fb-icon.png" alt="facebook-icon" />
             Continue with Facebook
           </button>
