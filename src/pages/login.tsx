@@ -2,6 +2,7 @@ import { useState } from "react";
 import Footer from "../components/footer";
 import { IoEyeOutline } from "react-icons/io5";
 import { AiOutlineEyeInvisible } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   const [seePassword, setSeePassword] = useState(false);
@@ -76,9 +77,9 @@ export default function Login() {
                 Forgot Password?
               </span>
             </div>
-            <a href="/dashboard" className="block bg-[#FF7A18] text-[#FFFFFF] w-full text-center p-3 rounded-xl my-4 mt-4 md:my-8">
+            <Link to="/dashboard" className="block bg-[#FF7A18] text-[#FFFFFF] w-full text-center p-3 rounded-xl my-4 mt-4 md:my-8">
               Continue
-            </a>
+            </Link>
           </form>
 
           <p className="text-center text-[#1F2937] ">or continue with</p>
@@ -93,9 +94,9 @@ export default function Login() {
 
           <p className="text-center">
             Don't have an account?{" "}
-            <a href="signup" className="text-[#1E88E5] hover:underline">
+            <Link to="/signup" className="text-[#1E88E5] hover:underline">
               Create an account
-            </a>
+            </Link>
           </p>
         </div>
       </div>

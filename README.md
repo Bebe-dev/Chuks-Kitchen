@@ -5,7 +5,6 @@ orders, and track activity online. Users can also interact with a clean, respons
 
 The application is designed using a mobile-first approach to ensure a smooth browsing experience across all screen sizes.
 
----
 
 ## Features
 
@@ -14,7 +13,6 @@ The application is designed using a mobile-first approach to ensure a smooth bro
 - View detailed food pages
 - Dynamic routing with React Router
 
----
 
 ## Built With
 
@@ -24,18 +22,6 @@ The application is designed using a mobile-first approach to ensure a smooth bro
 - Tailwind CSS
 - React Router
 
----
-
-## Project Structure
-
-
-src/
-│
-├── components/ # Reusable UI components
-├── pages/ # Page-level components (Home, Details, etc.)
-├── App.tsx
-└── main.tsx
-
 
 
 ## Installation & Setup
@@ -43,7 +29,7 @@ src/
 1. Clone the repository:
 
 
-git clone https://github.com/your-username/chuks-kitchen.git
+git clone https://github.com/Bebe-dev/Chuks-Kitchen
 
 
 2. Navigate into the project directory:
@@ -70,19 +56,12 @@ The app will run at:
 http://localhost:5173
 
 
----
-
-## Screenshots
-
-Add screenshots of your homepage and food details page here.
-
----
 
 ## Live Demo
 
 Add your live site link here.
 
----
+Live Demo(https://chukskitchen.netlify.app/)
 
 
 ##  Author

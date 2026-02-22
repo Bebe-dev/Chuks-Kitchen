@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../components/footer";
 
 export default function Onboarding() {
@@ -21,20 +22,20 @@ export default function Onboarding() {
         <div className="flex-1 py-10 px-6 md:px-20">
           <div className="md:flex justify-between items-center hidden">
             <img src="images/logo.png" alt="logo" />
-            <a
-              href="/login"
+            <Link
+              to="/login"
               className="border-2 border-[#1E88E5] text-[#1E88E5] rounded-xl p-2 px-8"
             >
               Sign in
-            </a>
+            </Link>
           </div>
           <div className="md:hidden flex justify-end">
-            <a
-              href="/login"
+            <Link
+              to="/login"
               className="border-2 border-[#1E88E5] text-[#1E88E5]  rounded-xl p-2 px-8"
             >
               Sign in
-            </a>
+            </Link>
           </div>
           <div className="text-[#1F2937] ">
             <div className="md:hidden my-4 mt-12 flex justify-center ">

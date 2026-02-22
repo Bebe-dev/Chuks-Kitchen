@@ -2,6 +2,7 @@ import { useState } from "react";
 import Footer from "../components/footer";
 import { AiOutlineEyeInvisible } from "react-icons/ai";
 import { IoEyeOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 
 export default function Signup() {
@@ -126,9 +127,9 @@ export default function Signup() {
                 <a>Privacy Policy</a>{" "}
               </label>
             </div>
-            <a href="/dashboard" className="block bg-[#FF7A18] text-[#FFFFFF] w-full text-center p-3 rounded-xl my-4 mt-4 md:my-8">
+            <Link to="/dashboard" className="block bg-[#FF7A18] text-[#FFFFFF] w-full text-center p-3 rounded-xl my-4 mt-4 md:my-8">
               Continue
-            </a>
+            </Link>
           </form>
 
           <p className="text-[#1F2937] text-center ">or continue with</p>
@@ -143,9 +144,9 @@ export default function Signup() {
 
           <p className="text-center">
             Already have an account?{" "}
-            <a href="login" className="text-[#1E88E5]">
+            <Link to="/login" className="text-[#1E88E5]">
               Sign In
-            </a>
+            </Link>
           </p>
         </div>
       </div>

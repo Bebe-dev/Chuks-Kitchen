@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function Jollof() {
@@ -29,17 +29,6 @@ export default function Jollof() {
 
   const [showAll, setShowAll] = useState(false);
   const visibleFoods = showAll ? popularFoods : popularFoods.slice(0, 3);
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth >= 768) {
-        setShowAll(true);
-      }
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   return (
     <div className="py-4 md:py-20 px-4 md:px-10">
