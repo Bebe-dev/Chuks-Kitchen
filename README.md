@@ -56,7 +56,7 @@ The application is designed using a mobile-first approach to ensure a smooth bro
 
 ## Live Demo
 
-- Live Demo[Chuks-Kitchen](https://chukskitchen.netlify.app/)
+- Live Demo: [Chuks-Kitchen](https://chukskitchen.netlify.app/)
 
 
 ##  Author
